@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteName = "Jake.ac";
+const siteName = "JJ1.uk";
 
 export const metadata: Metadata = {
   title: {
@@ -18,8 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div id="app" className="flex flex-col bg-slate-50">
-          <main className="flex-1 mt-14 lg:mt-16">{children}</main>
+        <div id="app" className="">
+          <main className="">{children}</main>
         </div>
       </body>
     </html>
