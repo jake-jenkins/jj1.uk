@@ -1,7 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Jake Jenkins, Web Developer",
+  description: "Jake.ac",
+};
+
 export default function Home() {
-  return (
-    <div className="bg-pink-600 min-h-screen text-white flex items-center justify-center">
-      <h1 className="text-3xl">Oh, hey gurl 👋</h1>
-    </div>
-  );
+  return <h1 className="text-3xl">Oh, hey gurl 👋</h1>;
 }
